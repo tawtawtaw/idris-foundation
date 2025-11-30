@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Tree Plantation Drive in Dhaka",
+    "date": "November 10, 2025",
+    "excerpt": "Our volunteers planted over 1,000 trees to promote sustainability and fight climate change.",
+    "img": "/images/blog-tree.jpg",
+    "content": "On November 10th, our team organized a tree plantation drive in Dhaka. Over 1,000 trees were planted by volunteers across several neighborhoods. This initiative is part of our ongoing mission to combat climate change and promote sustainability in Bangladesh..."
+  },
+  {
+    "id": 2,
+    "title": "Healthcare Camp for Rural Communities",
+    "date": "October 25, 2025",
+    "excerpt": "We provided free medical checkups and medicines to over 500 villagers.",
+    "img": "/images/blog-health.jpg",
+    "content": "Our healthcare camp reached over 500 villagers in rural Bangladesh. Doctors and volunteers provided free checkups, distributed medicines, and educated families about preventive healthcare..."
+  }
+]

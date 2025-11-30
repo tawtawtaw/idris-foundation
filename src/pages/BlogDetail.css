@@ -1,0 +1,31 @@
+.blog-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.detail-hero {
+  margin-bottom: 20px;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.detail-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #006644;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back-link:hover {
+  text-decoration: underline;
+}

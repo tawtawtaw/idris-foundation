@@ -1,0 +1,89 @@
+.about-page {
+  padding: 40px;
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  color: #006644;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.about-mvv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.mvv-card {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.about-story {
+  margin-bottom: 40px;
+}
+
+.about-story h2 {
+  color: #006644;
+}
+
+.about-team {
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.team-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.about-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-btn {
+  margin: 0 10px;
+  background-color: #006644;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  background-color: #004d33;
+}

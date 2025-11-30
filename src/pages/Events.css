@@ -1,0 +1,136 @@
+.events-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Banner - Using shared styles */
+.events-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.events-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.events-hero .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 2rem;
+  z-index: 1;
+}
+
+.events-hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.events-hero p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .events-hero {
+    height: 50vh;
+    min-height: 300px;
+  }
+
+  .events-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .events-hero p {
+    font-size: 1.1rem;
+  }
+
+  .events-hero .hero-text {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .events-hero {
+    height: 40vh;
+    min-height: 250px;
+  }
+
+  .events-hero h1 {
+    font-size: 2rem;
+  }
+
+  .events-hero p {
+    font-size: 1rem;
+  }
+}
+
+/* Event Sections */
+.upcoming-events,
+.past-events {
+  padding: 3rem 2rem;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 1.5rem;
+}
+
+.event-info h3 {
+  margin-bottom: 0.5rem;
+  color: #006644;
+}
+
+.event-btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: #006644;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.event-btn:hover {
+  background: #004d33;
+}

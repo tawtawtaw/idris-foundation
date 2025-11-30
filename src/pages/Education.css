@@ -1,0 +1,45 @@
+.education-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #663399, #cc66ff);
+  color: #fff;
+}
+
+.education-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.stat-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.education-story, .education-gallery, .education-cta {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #663399;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cta-button:hover {
+  background: #4b2366;
+}

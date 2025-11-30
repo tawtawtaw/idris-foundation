@@ -1,0 +1,32 @@
+import React from 'react';
+
+const Donate = () => (
+  <section style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+    <h1 style={{ textAlign: 'center', color: '#004080' }}>Support the Idris Foundation</h1>
+    <p style={{ fontSize: '1.1rem', lineHeight: '1.6' }}>
+      Your donation helps us provide life-changing services in education, healthcare, and sustainability across underserved communities in Bangladesh.
+    </p>
+
+    <h2>Ways to Donate</h2>
+    <ul>
+      <li><strong>One-time donation:</strong> Make a single contribution of any amount.</li>
+      <li><strong>Monthly giving:</strong> Become a sustaining donor with automatic monthly support.</li>
+      <li><strong>Corporate matching:</strong> Double your impact through employer matching programs.</li>
+    </ul>
+
+    <h2>How to Donate</h2>
+    <p>
+      We’re currently building our secure donation platform. In the meantime, you can reach out to us at:
+    </p>
+    <p>
+      <strong>Email:</strong> donate@idrisfoundation.org<br />
+      <strong>Phone:</strong> +44 20 1234 5678
+    </p>
+
+    <p style={{ marginTop: '2rem', fontStyle: 'italic' }}>
+      Every contribution, big or small, brings us closer to a healthier, more educated, and greener future.
+    </p>
+  </section>
+);
+
+export default Donate;

@@ -1,0 +1,28 @@
+/* Footer.css */
+.site-footer {
+  background: #2c3e50;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content nav {
+  margin-top: 0.5rem;
+}
+
+.footer-content nav a {
+  color: #ecf0f1;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-content nav a:hover {
+  color: #3498db;
+}

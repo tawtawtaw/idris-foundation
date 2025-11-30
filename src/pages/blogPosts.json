@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Tree Plantation Drive in Dhaka",
+    "date": "November 10, 2025",
+    "excerpt": "Our volunteers planted over 1,000 trees to promote sustainability and fight climate change.",
+    "img": "/images/blog-tree.jpg",
+    "content": "On November 10th, our team organized a tree plantation drive in Dhaka..."
+  },
+  {
+    "id": 2,
+    "title": "Healthcare Camp for Rural Communities",
+    "date": "October 25, 2025",
+    "excerpt": "We provided free medical checkups and medicines to over 500 villagers.",
+    "img": "/images/blog-health.jpg",
+    "content": "Our healthcare camp reached over 500 villagers in rural Bangladesh..."
+  },
+  {
+    "id": 3,
+    "title": "Scholarship Program Launched",
+    "date": "September 15, 2025",
+    "excerpt": "Supporting 200 students with scholarships to continue their education.",
+    "img": "/images/blog-education.jpg",
+    "content": "We launched a scholarship program to support 200 students..."
+  },
+  {
+    "id": 4,
+    "title": "New Volunteer Orientation",
+    "date": "November 20, 2025",
+    "excerpt": "We welcomed 50 new volunteers with an orientation session in Romford.",
+    "img": "/images/blog-volunteers.jpg",
+    "content": "On November 20th, we hosted an orientation session for 50 new volunteers in Romford..."
+  }
+]
